@@ -1,0 +1,54 @@
+.chat {
+    height: 100%;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    margin-top: 5%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 50px;
+    box-shadow: 0px 15px 5px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-bottom: 30px;
+
+    .btn-chat {
+        border: none !important;
+    }
+    .nameChat{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+}
+
+.message:nth-child(odd) {
+    padding: 15px 20px 15px 70px;
+}
+
+.message:nth-child(even) {
+    align-self: flex-end;
+    padding: 15px 70px 15px 20px;
+}
+
+.logo {
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7);
+    object-fit: cover;
+    position: absolute;
+    left: -5px;
+    top: -8px;
+    width: 70px;
+    height: 70px;
+    z-index: 10;
+}
+
+.message:nth-child(even) .logo {
+    left: auto;
+    right: 10px;
+}

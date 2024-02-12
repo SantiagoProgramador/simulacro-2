@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>LocalChat</title>
+</head>
+<body class="d-flex flex-column justify-content-between vh-100">
+    <form class="container flex-grow-1" id="formPost">
+        <div class="text-right mb-3">
+            <button type="submit" class="btn btn-success" id="btn-addPost">
+                Add Publication
+            </button>
+        </div>
+        <div class="card mb-3">
+            <div class="card-header">New post</div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="title">Títulos:</label>
+                    <input class="form-control" id="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="textArea">What are your thoughs:</label>
+                    <textarea class="form-control" id="textArea" rows="3" required></textarea>
+                </div>
+                <div class="form-group m-2">
+                    <label for="imageInput">Post a picture:</label>
+                    <input type="file" class="form-control-file" id="imageInput" />
+                </div>
+                <!-- <button type="button" class="btn btn-primary" id="btn-editPost">Edit</button>
+                <button type="button" class="btn btn-danger" id="btn-deletePost">Delete</button> -->
+            </div>
+        </div>
+    </form>
+
+    <main  class="container flex-grow-1 mt-5">
+        <div  id="contPost" class="card-header"><h3>My posts</h3>
+
+        </div>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "239c",
+      "name": "José Arcadio Buendía",
+      "email": "joseArcadioBuendia@xn--cienaosdesoledad-bub.edu.co",
+      "password": "12345678k",
+      "urlImage": "http://res.cloudinary.com/dnftdsxo1/image/upload/v1707605471/bngr4lyskq5ydu4d4bni.jpg"
+    },
+    {
+      "id": "0a19",
+      "name": "Úrsula Iguarán",
+      "email": "ursula@gmail.com",
+      "password": "12345678j",
+      "urlImage": "http://res.cloudinary.com/dnftdsxo1/image/upload/v1707697331/nidql0zx2ibif9osi71p.jpg"
+    }
+  ],
+  "post": [
+    {
+      "id": "7782",
+      "userId": "239c",
+      "title": "Me comí una salchipapa x3",
+      "description": "Que cosa tan sabrosa ",
+      "image": "http://res.cloudinary.com/dnftdsxo1/image/upload/v1707676574/pbw7vq8algwy8bqlxj0y.jpg"
+    },
+    {
+      "id": "1dee",
+      "userId": "239c",
+      "title": "Pepe es un crack",
+      "description": "lwadawdwadawdawdaw",
+      "image": "http://res.cloudinary.com/dnftdsxo1/image/upload/v1707692944/uorsdn08q2ptipc28t0x.jpg"
+    }
+  ]
+}
